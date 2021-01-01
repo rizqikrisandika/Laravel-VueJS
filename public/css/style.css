@@ -1,0 +1,26 @@
+#app{
+    background-color: #ffff;
+}
+nav{
+    min-height: 70px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 24px;
+}
+.navbar-nav li{
+    padding-left: 20px;
+}
+
+.navbar-nav li a{
+    font-weight: bold;
+}
+
+.articel-banner{
+    min-height: 150px;
+    background-color: whitesmoke;
+}
+
+.articel-banner h2{
+    line-height: 150px;
+}

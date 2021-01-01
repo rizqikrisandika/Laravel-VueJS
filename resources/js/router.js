@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import Home from './views/Home.vue'
 import About from './views/About.vue'
+import Articel from './views/Articel.vue'
 
 Vue.use(VueRouter)
 
@@ -18,6 +19,11 @@ const router =  new VueRouter({
            path: '/about',
            name: 'About',
            component: About
+       },
+       {
+           path: '/articel',
+           name: 'Articel',
+           component: Articel
        }
 
     ],
