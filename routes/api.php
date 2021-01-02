@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/articels', 'ArticelController@index');
+Route::post('/articels/add', 'ArticelController@store');
+Route::get('/articels/detail/{id}', 'ArticelController@getShow');
+Route::get('/articels/edit/{id}', 'ArticelController@getEdit');
+Route::put('/articels/update/{id}', 'ArticelController@update');
+Route::delete('/articels/delete/{id}', 'ArticelController@delete');

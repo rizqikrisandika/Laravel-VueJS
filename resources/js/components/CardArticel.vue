@@ -1,6 +1,6 @@
 <template>
   <div class="cardArticel">
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-12 col-sm-12 col-md-3 col-lg-3">
         <div class="card" style="width: 18rem">
           <img src="" class="card-img-top" alt="..." />
